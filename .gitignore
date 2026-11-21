@@ -1,0 +1,10 @@
+/build/
+/.codex/
+__pycache__/
+*.pyc
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz

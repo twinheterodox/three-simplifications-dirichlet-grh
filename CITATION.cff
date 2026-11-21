@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript."
+title: "Three simplifications in the Alpöge–Claude argument for Dirichlet GRH"
+type: software
+authors:
+  - name: twinheterodox
+repository-code: "https://github.com/twinheterodox/three-simplifications-dirichlet-grh"
+preferred-citation:
+  type: report
+  title: "Three simplifications in the Alpöge–Claude argument for Dirichlet GRH"
+  authors:
+    - name: twinheterodox
+  year: 2026
+  url: "https://github.com/twinheterodox/three-simplifications-dirichlet-grh/blob/main/output/pdf/three-simplifications-dirichlet-grh.pdf"

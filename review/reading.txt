@@ -1,0 +1,62 @@
+Review of the 21 November 2026 manuscript
+Three simplifications in the Alpöge–Claude argument for Dirichlet GRH
+
+Mathematics
+
+The authors checked the three paper arguments against their stated inputs.
+In Proposition 2.1 the normalized input corank is the actual fraction of
+low slopes before integration. The extremal two-point distribution
+attains the bound for the clipped mean shortfall. Substitution in the
+released arithmetic comparison preserves the pre-existing upper budget.
+
+In Theorem 3.1 the average over all characters at a ramified prime gives
+twice the uniform probability measure on the Frobenius coset. The
+one-sided change of weight uses its positivity. The translation average
+in the arithmetic input is uniform. The distribution of tops in the final
+character sum is weighted by their differentiation orders. In Corollary
+4.1, Chebyshev's bound absorbs a relative thick-weight width of order
+x^(-1/2 + epsilon) with fixed coefficient. This relaxation assumes the
+rest of the arithmetic and character estimates at the stated sizes.
+
+The Mellin transform in Section 5 has positive residue at a real family
+zero, and the positively weighted multiplicities preclude cancellation at
+any family zero in the strip. The one-sided pole displacement preserves
+the supremum of the real parts even when it is unattained. The frequency
+of sign changes used in Proposition 5.1 is the power-interval assertion
+in Kaczorowski and Pintz, Theorem 1, equation (2.2), and Corollary 1.
+For the integral version, logarithmic averaging shortens the interval
+but preserves the poles and the sign of their positive real residues.
+
+An independent Codex collaborator checked the slope calculation and its
+use in the released arithmetic inequality. The collaborator also checked
+the single-scale comparison and projection, the local inertia masses, the
+cyclic character count and the distinction between a character and its
+family sum against the released definitions. In Section 5 the same
+reviewer checked cancellation at one, the residue formula, the displacement
+of real poles, the hypotheses of the Kaczorowski–Pintz theorem (including
+an unattained rightmost abscissa), and the integral criterion against the
+released window hypothesis. These checks concern proofs on paper.
+The existence of the theta-lift data and the construction of simultaneous
+arithmetic intervals are external inputs to Theorem 1.1.
+
+Exposition
+
+The intended audience is graduate readers of pure mathematics familiar
+with Dirichlet L-functions and characters of finite abelian groups.
+The introduction starts with the centered zeta prime count and identifies
+why the location of excursions matters. The quadratic case shows which
+function is fixed while the host field varies. An independent reading
+of Sections 1–3 of the combined draft checked the examples and the link
+from the geometric comparison to the prime sum. Equation (3.3) makes
+this link at the actual weights of each translate. The two-order example
+then illustrates the change of shares needed to evaluate at a common
+argument. The abstract states the stronger weight range and identifies
+the arithmetic inputs to the final implication.
+
+Finite examples
+
+The two Python programs in checks/ run in exact arithmetic. Their commands
+appear in README.txt. One verifies 2,048 local character-kernel identities,
+64 weighted projections and 210 directional ramp comparisons. The other
+independently verifies 192 local kernels, 30 translate counts, 32 complex
+Fourier coefficients and four ideal shares on its chosen examples.

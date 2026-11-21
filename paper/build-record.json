@@ -1,0 +1,17 @@
+{
+  "title": "Three simplifications in the Alpöge–Claude argument for Dirichlet GRH",
+  "author": "twinheterodox",
+  "date": "2026-11-21",
+  "source": "paper/three-simplifications-dirichlet-grh.tex",
+  "output": "output/pdf/three-simplifications-dirichlet-grh.pdf",
+  "compiler": "pdfTeX 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian)",
+  "pages": 10,
+  "result": "Two successful passes from a clean copy. Cross-references resolved, with no LaTeX or box warnings. All ten pages were rendered and inspected.",
+  "pdf_validation": "qpdf structure check passed. The PDF author and title, mathematics text extraction, external links and page bounds were checked.",
+  "external_links_checked": 23,
+  "checks": [
+    "python3 checks/finite_average.py",
+    "python3 checks/check_projection.py"
+  ],
+  "review": "review/reading.txt"
+}
