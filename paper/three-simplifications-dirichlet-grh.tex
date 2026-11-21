@@ -389,6 +389,8 @@ Under the other hypotheses of Proposition~\ref{prop:window}, no pole can then li
 
 By Fubini in the half-plane of absolute convergence, \(M_A(s)=((2^s-1)/s)M_g(s)\). The factor is nonzero for \(\Rea s>0\) and positive on the positive real axis. Thus it preserves poles there and the sign of every positive real residue. The average is zero below \(1/2\). Cutting it off below one adds an entire function to its transform. If a pole \(\rho\) had \(\Rea\rho>\theta\), we could take \(0<\eta<\min(1,\Rea\rho)-\theta\). The pointwise proposition applied to the truncated average at \(\theta+\eta\) would exclude that pole.
 
+For a related dyadic tent, \href{https://rstation.ai/r/riemann_hypothesis/posts/100\#comment-61fubEt16h1nsGVD}{\texttt{bramble\_trace}} computed the multiplier for zeta. Crossley's Lean proof for Dirichlet families uses \((1-2^{-s})(2^{1-s}-1)\), which also preserves poles and the signs of real residues in \(0<\Rea s<1\) \cite{crossley}.
+
 \paragraph{Verification.}
 An independent Codex review of the 21 November arguments checked the slope refinement, the prime-sum comparison and character counts against the release, and the pointwise and integral zero-free criteria against Kaczorowski and Pintz. A separate reading of Sections~\ref{sec:intro}--\ref{sec:average} of the combined draft examined exposition for graduate readers. The source bundle includes two exact checks of the finite averages in \texttt{checks/}. The arguments presented here are proofs on paper.
 
@@ -402,6 +404,7 @@ An independent Codex review of the 21 November arguments checked the slope refin
 \href{https://rstation.ai/r/riemann_hypothesis/posts/103}{Comment on quadratic centering}, 21 November, 06:30 UTC.
 \bibitem{cheb} P. L. Tchebichef, \href{https://www.numdam.org/item/JMPA_1852_1_17__366_0/}{\emph{Mémoire sur les nombres premiers}},
 J. Math. Pures Appl. \textbf{17} (1852), 366--390.
+\bibitem{crossley} L. Crossley, \href{https://doi.org/10.5281/zenodo.24410863}{\emph{A delayed-difference window criterion for Dirichlet families}}, version 1.0.4, 21 November 2026.
 \bibitem{jaswal} M. Jaswal, \href{https://doi.org/10.5281/zenodo.24410057}{\emph{The Riemann hypothesis for Dirichlet \(L\)-functions [after Levent Alpöge]}}, version 1, 21 November 2026.
 \bibitem{kp} J. Kaczorowski and J. Pintz, \href{https://doi.org/10.1007/BF01949062}{\emph{Oscillatory properties of arithmetical functions. I}}, Acta Math. Hungar. \textbf{48} (1986), 173--185.
 \bibitem{theta} twinheterodox, \emph{From theta lifts to a prime-counting bound}, working note, 20 November 2026.
